@@ -97,29 +97,31 @@ main {
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 100px;
+  height: 100px;
 }
 
 .weather-app-temperature {
   font-size: 88px;
   font-weight: bold;
+  line-height: 80px;
 }
 
 .weather-app-unit {
   font-size: 28px;
-  margin-top: 30px;
+  margin-top: 16px;
 }
 
 .real-feel-container {
   display: flex;
   font-family: Georgia, Times New Roman, Times, serif;
   font-weight: 600;
+  margin-left: 42px;
   margin-top: -20px;
 }
 
 .real-feel-text {
-  margin-right: 7px;
+  margin-right: 5px;
   margin-left: 65px;
 }
 
