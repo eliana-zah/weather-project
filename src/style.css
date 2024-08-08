@@ -85,6 +85,13 @@ main {
   color: #9430f1;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(1, 2fr);
+  margin: 10px 0;
+}
+
 .weather-app-temperature-container {
   display: flex;
 }
@@ -97,12 +104,34 @@ main {
 .weather-app-temperature {
   font-size: 88px;
   font-weight: bold;
-  /* margin-left: 4px;*/
 }
 
 .weather-app-unit {
   font-size: 28px;
   margin-top: 30px;
+}
+
+.real-feel-container {
+  display: flex;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.real-feel-text {
+  margin-right: 7px;
+  margin-left: 65px;
+}
+
+.real-feel-temperature {
+  font-size: 30px;
+  margin-right: 2px;
+  margin-top: 3px;
+}
+
+.real-feel-unit {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 footer {
